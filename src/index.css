@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Vazir", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  body {
+    @apply mx-auto min-h-screen max-w-[1400px] p-2.5;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: inherit;
+    color: inherit;
+  }
+  
+  button,
+  input,
+  select {
+    font-family: inherit;
+  }
+
+  /* ----------------------------- YekanBakh ----------------------------- */
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("./assets/fonts/Vazirmatn-Thin.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 200;
+    src: url("./assets/fonts/Vazirmatn-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 300;
+    src: url("./assets/fonts/Vazirmatn-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/Vazirmatn-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/fonts/Vazirmatn-ExtraBold.ttf") format("truetype");
+  }
+  

@@ -1,5 +1,13 @@
+import Router from "./router/Router";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+
 function App() {
-  return <h1>پروژه دیوار</h1>;
+  return (
+    <>
+      <Router />
+      <ReactQueryDevtools />
+    </>
+  );
 }
 
 export default App;
